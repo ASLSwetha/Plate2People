@@ -30,9 +30,8 @@ function Login({ setIsLoggedIn}) {
             axios.post('http://localhost:3001/', { email, password })
                 .then(result => {
                     if (result.data === "Success") {
-                        setIsLoggedIn(true);
-                       
                         navigate('/');
+                        setIsLoggedIn(true);
                     }
                 })
             .catch(err => console.log(err));
