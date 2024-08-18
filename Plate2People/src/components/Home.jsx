@@ -57,9 +57,4 @@ function Home({isLoggedIn}) {
     </div>
   )
 }
-
-// https://images.squarespace-cdn.com/content/v1/60795610b05e0b4b67af086c/f7c6092c-b14b-4d58-b8ed-61ae5eada0ed/Daniel_fast_page_pic.jpeg?format=750w
-// https://www.sccgltd.com/wp-content/uploads/Food-waste-2-scaled.jpeg
-// // https://akm-img-a-in.tosshub.com/indiatoday/images/story/201307/mid-day_660_072113043211.jpg
-
 export default Home
