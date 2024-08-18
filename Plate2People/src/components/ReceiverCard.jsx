@@ -36,7 +36,9 @@ function ReceiverCard({ _id, name, email, phone, city, district, state, quantity
           to_name: name,
           to_email: userEmail,
           message: `Thank you. We have received your Request of accepting ${quantity} units from ${city}, ${district}, ${state}.
-             Here is the donar contact details Name        : ${name} Phone number:${phone}`,
+             Here is the donar contact details - 
+             Name        : ${name}
+             Phone number:${phone}`,
         };
   
         emailjs.send(serviceId, templateId, templateParams, userId)
